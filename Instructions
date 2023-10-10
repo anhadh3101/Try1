@@ -1,0 +1,32 @@
+C:\Users\anhad\Documents\GitDemo>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anhad\Documents\GitDemo>git init
+Initialized empty Git repository in C:/Users/anhad/Documents/GitDemo/.git/
+
+C:\Users\anhad\Documents\GitDemo>notepad Test.java
+
+C:\Users\anhad\Documents\GitDemo>open Test.java
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anhad\Documents\GitDemo> git add Test.java
+
+C:\Users\anhad\Documents\GitDemo> git commit -m "initial"
+[master (root-commit) 8db37e0] initial
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Test.java
+
+C:\Users\anhad\Documents\GitDemo>git remote add origin git@github.com:anhadh3101/Try1.git
+
+C:\Users\anhad\Documents\GitDemo>git branch -M main
+
+C:\Users\anhad\Documents\GitDemo>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 210 bytes | 210.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:anhadh3101/Try1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
